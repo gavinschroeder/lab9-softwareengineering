@@ -1,3 +1,5 @@
+#This is the software engineering lab
+
 def encode(password):
     encoded_password = ''.join(str((int(digit) + 3) % 10) for digit in password)
     return encoded_password
